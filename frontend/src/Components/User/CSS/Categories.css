@@ -1,0 +1,37 @@
+.category{
+    /* height: 80vh; */
+    width: 100vw;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* background-image: url('../../Assets/aa.jpeg'); */
+    color: white;
+    text-align: center;
+    background-color:whitesmoke;
+
+}
+.cat-cat{
+    background-color:whitesmoke;
+
+    height: 100%;
+    margin-top: -40px;
+    width:85vw;
+    margin: auto;
+
+}
+.inner-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Centers items in each row */
+    gap: 20px; /* Space between items */
+    column-gap: 0px;
+    align-items: center;
+    
+
+    
+    
+}
+.cat-head{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    
+}

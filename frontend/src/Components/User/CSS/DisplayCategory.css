@@ -1,0 +1,24 @@
+.dc {
+    /* border: 2px solid red; */
+    width: 333px;
+    height: 294px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.357);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.dc:hover{
+    transform: scale(1.1);
+}
+.dc img{
+    height: 240px;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+.dc p{
+}

@@ -1,0 +1,21 @@
+.menu{
+
+}
+.aasxasd
+{
+    /* border: 2px solid red; */
+    /* font-size: 30px; */
+    /* height: 100px; */
+    font-weight: bolder;
+    margin-bottom: 15px;
+
+}
+.meu-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid rgb(43, 21, 205); */
+    width:fit-content;
+    column-gap: 100px;
+    margin: auto;
+   
+}

@@ -1,0 +1,25 @@
+.ss {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+}
+.specioalheading{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+.special {
+    height: 80vh;
+    background-color: white;
+    width: 100vw;
+    /* border: 2px solid red; */
+    /* background-image: url('../../Assets/aa.jpeg'); */
+    color: white;
+}
+.qqwwee{
+    /* border: 2px solid red; */
+    background-color: whitesmoke;
+    height: 100%;
+    margin-top: -20px;
+}

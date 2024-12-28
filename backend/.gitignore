@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# npm debug file
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build output
+/dist/
+
+# Database files
+*.db
+
+# Other unwanted files
+*.tgz
+.cache/
+tmp/

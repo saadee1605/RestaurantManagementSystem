@@ -1,0 +1,92 @@
+/* AdminMenu.css */
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f3f4f6, #e3e4e6);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Admin Menu Form Container */
+.admin-menu {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-menu form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-menu label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+.admin-menu input, 
+.admin-menu textarea {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    background-color: #f8f9fa;
+}
+
+.admin-menu input:focus, 
+.admin-menu textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+.admin-menu textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Submit Button */
+.admin-menu button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.admin-menu button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Form Header */
+.admin-menu h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-menu {
+        padding: 15px;
+    }
+    .admin-menu input, .admin-menu textarea {
+        font-size: 14px;
+    }
+}

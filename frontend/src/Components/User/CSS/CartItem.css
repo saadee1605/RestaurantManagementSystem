@@ -1,0 +1,116 @@
+.CartItem {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 130px;
+    /* border: 2px solid red; */
+}
+
+.CartItem h1 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    /* border:2px solid black; */
+    height: 17vh;
+    width: 60%;
+    justify-content: space-around;
+
+    margin: 10px auto;
+    border: 1px solid rgb(25, 24, 24);
+    box-shadow: 2px 2px 5px 1px black;
+}
+
+.cart-item img {
+    height: 100%;
+    /* border: 2px solid orangered; */
+    width: 15%;
+    /* margin-left: 10px; */
+}
+.cart-item-data{
+
+}
+.cart-item-data {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width:100%;
+    margin-left: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px; */
+
+}
+
+.cart-item-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.buttons button {
+    height: 25px;
+    width: 30px;
+    background-color: rgb(63, 62, 62);
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.total-price-item {
+    text-align: center;
+    
+}
+
+.cart-item-name {
+    font-weight: 700;
+    /* border: 2px solid red; */
+    width: 150px;
+}
+
+.oldprice-cart-item {
+    text-decoration: line-through;
+}
+
+.newprice-cart-item {
+    color: rgb(255, 56, 56);
+}
+
+.clear-cart {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;   
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(217, 5, 5);
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    margin: 30px auto;
+}
+
+.total-price-item span {
+    font-weight: bold;
+}

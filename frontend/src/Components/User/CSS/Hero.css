@@ -1,0 +1,51 @@
+/* Ensure video fills the screen */
+.Hero .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+}
+.Hero{
+    margin-bottom: 15px;
+}
+
+.Hero .video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the video covers the entire container */
+}
+
+/* Create an overlay that darkens the video */
+.Hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.Hero .content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centers the content */
+    text-align: center;
+    z-index: 2;
+    /* Ensure the content is above the overlay */
+}
+
+.Hero .content h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.Hero .content p {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}

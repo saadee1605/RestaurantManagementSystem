@@ -1,0 +1,7 @@
+.addedToCart h3{
+    background-color: aquamarine;
+    position: static;
+    top: 50px;
+    height: 20px;
+    width: 100%;
+}

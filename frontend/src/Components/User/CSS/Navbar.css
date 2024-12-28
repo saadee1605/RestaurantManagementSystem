@@ -1,0 +1,104 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.5fr;
+    border: 2px solid black;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 15px;
+
+}
+.navbar-user-name {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-user-name p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+.abc-nav {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.left {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    /* border: 2px solid wheat; */
+}
+
+.center {
+    border: 2px solid rgb(192, 159, 159);
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    list-style: none;
+    
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-li Link {
+    list-style: none;
+}
+
+.selecnav {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    margin-right: -10px;
+    border: 2px solid rgb(12, 10, 10);
+    margin-left: 10px;
+}
+
+.nav-li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.right button,
+i,
+p {
+    cursor: pointer;
+}
+
+.right button {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.circcc {
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+}

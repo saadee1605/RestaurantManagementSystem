@@ -1,0 +1,63 @@
+.admin-navbar{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.3fr;
+    padding: 15px;
+}
+
+
+.admin-navbar-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    text-align: center;
+    overflow: hidden; /* Prevent content overflow */
+    white-space: nowrap; /* Prevent wrapping of text */
+}
+.admin-navbar-left h2{
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.admin-navbar-left p {
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.admin-nav-ul{
+    border: 2px solid burlywood;
+    border-radius: 60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.admin-nav-ul li{
+    list-style: none;
+    color: white;
+}
+.admin-navlink {
+    color: white;
+    text-decoration: none;
+
+}
+.admin-navbar-right{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-abc-nav{
+    color: white;
+    text-decoration: none;
+}

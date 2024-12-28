@@ -1,0 +1,35 @@
+.cart-item{
+    border: 2px solid rgb(37, 36, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cart-item-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.cart-item-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    height: 40px ;
+    width: 140px;
+    background-color: black;
+        color: antiquewhite;
+    font-size: 20px;
+    color: white;
+    
+}
+@media(max-width:680px) {
+    .cart-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-item-details{
+        text-align: center;
+    }
+}

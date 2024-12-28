@@ -1,0 +1,29 @@
+.item-display-in-detail{
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 60vw;
+    box-shadow: 4px 4px 9px 1px black;    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    transition: all 0.2s;
+
+}
+.asdasd{
+    /* background-color: rgba(128, 128, 128, 0.329); */
+}
+.item-display-in-detail-img{
+    height: 300px;
+    width:300px;
+    margin:10px auto;
+    /* border: 2px solid black; */
+    object-fit:contain;
+}
+.item-display-in-detail button{
+    width: 105px;
+    height: 30px;
+    margin:10px auto;
+}
